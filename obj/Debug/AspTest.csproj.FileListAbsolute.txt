@@ -1,0 +1,11 @@
+C:\Users\samz\source\repos\AspTest\obj\Debug\AspTest.csprojAssemblyReference.cache
+C:\Users\samz\source\repos\AspTest\bin\Debug\AspTest.exe.config
+C:\Users\samz\source\repos\AspTest\bin\Debug\AspTest.exe
+C:\Users\samz\source\repos\AspTest\bin\Debug\AspTest.pdb
+C:\Users\samz\source\repos\AspTest\obj\Debug\AspTest.exe
+C:\Users\samz\source\repos\AspTest\obj\Debug\AspTest.pdb
+C:\Users\samz\source\repos\AspTest\bin\Debug\EntityFramework.dll
+C:\Users\samz\source\repos\AspTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\samz\source\repos\AspTest\bin\Debug\EntityFramework.xml
+C:\Users\samz\source\repos\AspTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\samz\source\repos\AspTest\obj\Debug\AspTest.csproj.CopyComplete
