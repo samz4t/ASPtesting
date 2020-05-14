@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AspTest.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace AspTest
     {
         static void Main8(string[] args)
         {
-             BetaGrpEntities com = new BetaGrpEntities();
+            BetaGrpContex com = new BetaGrpContex();
       
             var query2 = from e in com.EmployeeTbls
                          select e;
@@ -56,7 +57,7 @@ namespace AspTest
         }
         public void Select()
         {
-            BetaGrpEntities com = new BetaGrpEntities();
+            BetaGrpContex com = new BetaGrpContex();
 
             IEnumerable<Employee> method2 = Employee.GetEmployee().Where(x => x.Salary == 6000);
             IEnumerable<Employee> query2 = from emp in Employee.GetEmployee()

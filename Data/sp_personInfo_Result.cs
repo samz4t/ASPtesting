@@ -7,17 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AspTest
+namespace AspTest.Data
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class EmployeeTbl
+    public partial class sp_personInfo_Result
     {
         public int ID { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
         public Nullable<int> Salary { get; set; }
-        public Nullable<int> DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
+        public string Location { get; set; }
+        public string DepartmentHead { get; set; }
     }
 }

@@ -53,27 +53,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract.cs" />
-    <Compile Include="Company.Context.cs">
+    <Compile Include="Data\BetagrpDB.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Company.Context.tt</DependentUpon>
+      <DependentUpon>BetagrpDB.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Company.cs">
+    <Compile Include="Data\BetagrpDB.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Company.tt</DependentUpon>
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
     </Compile>
-    <Compile Include="Company.Designer.cs">
+    <Compile Include="Data\BetagrpDB.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Company.edmx</DependentUpon>
+      <DependentUpon>BetagrpDB.edmx</DependentUpon>
     </Compile>
-    <Compile Include="DepartmentTbl.cs">
-      <DependentUpon>Company.tt</DependentUpon>
+    <Compile Include="Data\DepartmentTbl.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\DetailsData_Result.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\LoginTb.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\sp_personInfo_Result.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\sp_report_Result.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Data\ViewIndex_Result.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Employee.cs" />
-    <Compile Include="EmployeeTbl.cs">
-      <DependentUpon>Company.tt</DependentUpon>
+    <Compile Include="Data\EmployeeTbl.cs">
+      <DependentUpon>BetagrpDB.tt</DependentUpon>
     </Compile>
     <Compile Include="Icustomer.cs" />
     <Compile Include="LinQ.cs" />
@@ -84,25 +99,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Company.edmx">
+    <EntityDeploy Include="Data\BetagrpDB.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Company.Designer.cs</LastGenOutput>
+      <LastGenOutput>BetagrpDB.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Company.edmx.diagram">
-      <DependentUpon>Company.edmx</DependentUpon>
+    <None Include="Data\BetagrpDB.edmx.diagram">
+      <DependentUpon>BetagrpDB.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Company.Context.tt">
+    <Content Include="Data\BetagrpDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Company.Context.cs</LastGenOutput>
-      <DependentUpon>Company.edmx</DependentUpon>
+      <DependentUpon>BetagrpDB.edmx</DependentUpon>
+      <LastGenOutput>BetagrpDB.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Company.tt">
+    <Content Include="Data\BetagrpDB.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Company.edmx</DependentUpon>
-      <LastGenOutput>Company.cs</LastGenOutput>
+      <DependentUpon>BetagrpDB.edmx</DependentUpon>
+      <LastGenOutput>BetagrpDB.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AspTest.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,7 @@ namespace AspTest
 {
     class LinQ22cs
     {
-       static BetaGrpEntities com = new BetaGrpEntities();
+       static BetaGrpContex com = new BetaGrpContex();
         static void Main(string[] args)
         {
             var method1 = com.EmployeeTbls;
